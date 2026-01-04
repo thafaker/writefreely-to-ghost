@@ -8,13 +8,13 @@ clone this repo to your Linux Distribution
 
     git clone https://github.com/thafaker/writefreely-to-ghost.git
 
-You need Pandoc for the converstion of the Markdown in Writefreely to the HTML Ghost needs in den Import.
+You need Pandoc for the converstion of the Writefreely-Markdown to the HTML Code Ghost needs for the Import.
 
     brew install pandoc
-    or
+or
     apt install pandoc
-    or
-    yes, you name it
+or
+    yes, you name it…
 
 Than copy your writefreely file into this cloned folder and rename it to writefreely-export.json
 
