@@ -20,11 +20,15 @@ or
 
     yes, you name it…
 
-Than copy your writefreely file into this cloned folder and rename it to writefreely-export.json
+Than copy your writefreely export json file into this cloned folder and rename it to writefreely-export.json
+
+Make the script executable
+
+    chmod +x convert-writefreely-to-ghost.sh
 
 Run the script
 
-   bash convert-writefreely-to-ghost.sh
+    bash convert-writefreely-to-ghost.sh
 
 It take a little bit of time, after that you should got a file named ghost-import-complete.json and this can be imported via webinterface into your ghost installation.
 
