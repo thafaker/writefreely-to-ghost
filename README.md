@@ -2,7 +2,7 @@
 
 I wrote a Script to convert the Writefreely Export JSON File to Ghost Import JSON File
 
-## First Step
+## Just a few steps
 
 clone this repo to your Linux Distribution
 
@@ -28,9 +28,9 @@ Make the script executable
 
 Run the script
 
-    bash convert-writefreely-to-ghost.sh
+    ./convert-writefreely-to-ghost.sh
 
-It take a little bit of time, after that you should got a file named ghost-import-complete.json and this can be imported via webinterface into your ghost installation.
+Depending on the amount of Posts you have, it takes a little bit of time. After that you should get a file named <code>ghost-import-complete.json</code> and this can be imported via webinterface into your ghost installation.
 
 Hope that helps.
 Jan
