@@ -11,9 +11,13 @@ clone this repo to your Linux Distribution
 You need Pandoc for the converstion of the Writefreely-Markdown to the HTML Code Ghost needs for the Import.
 
     brew install pandoc
+
 or
+
     apt install pandoc
+
 or
+
     yes, you name it…
 
 Than copy your writefreely file into this cloned folder and rename it to writefreely-export.json
